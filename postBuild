@@ -3,3 +3,5 @@ set -ex
 
 jupyter labextension install @jupyterlab/server-proxy
 jupyter lab build
+
+julia --proyect='.' -e 'import Conda;Conda.update();using SymPy;sympy.sqrt(2)'
