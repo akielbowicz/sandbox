@@ -4,6 +4,7 @@ using System.Security.Cryptography;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 
+// dotnet run --project src/BenchmarkOutput/BenchmarkOutput.csproj --configuration=Release
 namespace BenchmarkOutput
 {
     public class Md5VsSha256
